@@ -15,8 +15,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1">
+            android:layout_height="wrap_content">
 
             <ImageView
                 android:id="@+id/image"
@@ -43,7 +42,7 @@
             android:id="@+id/question"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="4"
+            android:layout_weight="1"
             android:padding="@dimen/padding"
             android:text="@string/intro"
             android:textAlignment="center"
@@ -54,7 +53,7 @@
         <EditText
             android:id="@+id/name_entry"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
             android:layout_margin="@dimen/margin"
             android:layout_weight="1"
             android:gravity="center"
@@ -68,7 +67,7 @@
         <RadioGroup
             android:id="@+id/question1"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
             android:layout_margin="@dimen/margin"
             android:layout_weight="1"
             android:orientation="vertical"
@@ -124,9 +123,8 @@
         <LinearLayout
             android:id="@+id/question2"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
             android:layout_margin="@dimen/margin"
-            android:layout_weight="1"
             android:orientation="vertical"
             android:visibility="gone">
 
@@ -179,7 +177,7 @@
         <RadioGroup
             android:id="@+id/question3"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
             android:layout_margin="@dimen/margin"
             android:layout_weight="1"
             android:orientation="vertical"
@@ -234,9 +232,8 @@
         <LinearLayout
             android:id="@+id/question4"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
             android:layout_margin="@dimen/margin"
-            android:layout_weight="1"
             android:orientation="vertical"
             android:visibility="gone">
 
@@ -292,7 +289,7 @@
         <RadioGroup
             android:id="@+id/question5"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
             android:layout_margin="@dimen/margin"
             android:layout_weight="1"
             android:orientation="vertical"
@@ -346,7 +343,7 @@
         <RadioGroup
             android:id="@+id/question6"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
             android:layout_margin="@dimen/margin"
             android:layout_weight="1"
             android:visibility="gone">
@@ -398,7 +395,7 @@
         <LinearLayout
             android:id="@+id/question7"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
             android:layout_margin="@dimen/margin"
             android:layout_weight="1"
             android:visibility="gone">
@@ -418,9 +415,8 @@
         <LinearLayout
             android:id="@+id/question8"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
             android:layout_margin="@dimen/margin"
-            android:layout_weight="1"
             android:orientation="vertical"
             android:visibility="gone">
 
@@ -475,7 +471,7 @@
         <Button
             android:id="@+id/next_button"
             android:layout_width="wrap_content"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="end"
             android:layout_margin="@dimen/margin"
             android:layout_weight="1"
